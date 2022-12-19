@@ -107,6 +107,7 @@ img {
 
 .header p {
   font-size: 1.1rem;
+  text-align: center;
   text-shadow: 0 0 5px #063d1e;
   text-indent: 0;
 }
@@ -226,12 +227,6 @@ aside > ul {
 }
 
 /* mediaquery */
-@media screen and (max-width: 446px) {
-  .header p, .navbar .nav__menu {
-    text-align: center;
-    justify-content: center;
-  }
-}
 
 @media screen and (max-width: 450px) {
   .footer p {
@@ -244,6 +239,10 @@ aside > ul {
 }
 
 @media screen and (max-width: 480px) {
+  .header p, .navbar .nav__menu {
+    text-align: center;
+    justify-content: center;
+  
   aside > ul {
     columns: 1;
   }
